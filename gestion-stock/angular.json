@@ -24,7 +24,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/customer-app",
+            "outputPath": "dist/gestion-stock",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -71,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "customer-app:build:production"
+              "buildTarget": "gestion-stock:build:production"
             },
             "development": {
-              "buildTarget": "customer-app:build:development"
+              "buildTarget": "gestion-stock:build:development"
             }
           },
           "defaultConfiguration": "development"
