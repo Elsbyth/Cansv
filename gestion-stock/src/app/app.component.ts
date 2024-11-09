@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'gestion-stock-v2';
+  title = 'gestion-stock';
+  developpeur = 'moi'
 }

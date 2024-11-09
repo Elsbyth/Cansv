@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "customer-app": {
+    "gestion-stock": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
